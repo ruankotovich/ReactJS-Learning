@@ -19,7 +19,7 @@ const Site = (props) => {
                             <li><a href='#services'>SERVICES</a></li>
                             <li><a href='#portfolio'>PORTFOLIO</a></li>
                             <li><a href='#pricing'>PRICING</a></li>
-                            <li><a href='#contact'>CONTACT</a></li>
+                            <li><a href='#contact'>CONTACT {props.creator}</a></li>
                         </ul>
                     </div>
                 </div>
@@ -56,7 +56,7 @@ const Site = (props) => {
             <div className='container-fluid bg-grey'>
                 <div className='row'>
                     <div className='col-sm-4'>
-                        <span className='glyphicon glyphicon-globe logo slideanim'></span>
+                        <span className='glyphicon glyphicon-globe logo '></span>
                     </div>
                     <div className='col-sm-8'>
                         <h2>Our Values</h2><br />
@@ -72,7 +72,7 @@ const Site = (props) => {
                 <h2>SERVICES</h2>
                 <h4>What we offer</h4>
                 <br />
-                <div className='row slideanim'>
+                <div className='row '>
                     <div className='col-sm-4'>
                         <span className='glyphicon glyphicon-off logo-small'></span>
                         <h4>POWER</h4>
@@ -90,7 +90,7 @@ const Site = (props) => {
                     </div>
                 </div>
                 <br /><br />
-                <div className='row slideanim'>
+                <div className='row '>
                     <div className='col-sm-4'>
                         <span className='glyphicon glyphicon-leaf logo-small'></span>
                         <h4>GREEN</h4>
@@ -113,7 +113,7 @@ const Site = (props) => {
             <div id='portfolio' className='container-fluid text-center bg-grey'>
                 <h2>Portfolio</h2><br />
                 <h4>What we have created</h4>
-                <div className='row text-center slideanim'>
+                <div className='row text-center '>
                     <div className='col-sm-4'>
                         <div className='thumbnail'>
                             <img src='paris.jpg' alt='Paris' width='400' height='300' />
@@ -177,7 +177,7 @@ const Site = (props) => {
                     <h2>Pricing</h2>
                     <h4>Choose a payment plan that works for you</h4>
                 </div>
-                <div className='row slideanim'>
+                <div className='row '>
                     <div className='col-sm-4 col-xs-12'>
                         <div className='panel panel-default text-center'>
                             <div className='panel-heading'>
@@ -248,7 +248,7 @@ const Site = (props) => {
                         <p><span className='glyphicon glyphicon-phone'></span> +00 1515151515</p>
                         <p><span className='glyphicon glyphicon-envelope'></span> myemail@something.com</p>
                     </div>
-                    <div className='col-sm-7 slideanim'>
+                    <div className='col-sm-7 '>
                         <div className='row'>
                             <div className='col-sm-6 form-group'>
                                 <input className='form-control' id='name' name='name' placeholder='Name' type='text' required />

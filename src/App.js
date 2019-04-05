@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
+import Site from './Site';
 
 class App extends Component {
   render() {
     return (
-      <div></div>
+      <div>
+        <Site creator='Xyah'/>
+        </div >
     );
   }
 }
