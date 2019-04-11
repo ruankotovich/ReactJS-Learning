@@ -31,9 +31,9 @@ const Cabecalho = (props) => {
                         <ul className='nav navbar-nav navbar-right'>
                             <li><Link to='/'>Inicio</Link></li>
                             <li><Link to='/servicos'>Serviços</Link></li>
-                            <li><a href='#portfolio'>Portfolio</a></li>
-                            <li><a href='#pricing'>Valores</a></li>
-                            <li><a href='#contact'>Contato {props.creator}</a></li>
+                            <li><Link to='/portfolio'>Portfolio</Link></li>
+                            <li><Link to='/precos'>Valores</Link></li>
+                            <li><Link to='/contato'>Contato</Link></li>
                         </ul>
                     </div>
                 </div>
